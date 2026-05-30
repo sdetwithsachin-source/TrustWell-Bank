@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 50%;
+    background: linear-gradient(rgba(0, 40, 120, .85),
+            rgba(0, 20, 80, .85)),
+        url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 60px;
+}
+
+.bank-logo h1 {
+    font-size: 56px;
+}
+
+.bank-logo h3 {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.features {
+    margin-top: 80px;
+}
+
+.feature-card {
+    margin-bottom: 25px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, .1);
+
+    backdrop-filter: blur(10px);
+}
+
+.right-panel {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+
+    width: 500px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, .15);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lock-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.login-header h2 {
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: gray;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    border: 1px solid #ddd;
+
+    padding: 12px;
+
+    border-radius: 10px;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.forgot-link {
+
+    display: block;
+
+    text-align: right;
+
+    margin-bottom: 20px;
+
+    text-decoration: none;
+}
+
+.login-btn {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    background: #0033aa;
+
+    color: white;
+
+    font-size: 16px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #002080;
+}
+
+.divider {
+    text-align: center;
+    margin: 25px 0;
+    color: gray;
+}
+
+.alt-login {
+    display: flex;
+    gap: 15px;
+}
+
+.alt-login button {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ccc;
+
+    background: white;
+
+    cursor: pointer;
+}
