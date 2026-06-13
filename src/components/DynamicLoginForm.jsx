@@ -34,7 +34,7 @@ function DynamicLoginForm() {
 
                     <input
                         id={userId}
-                        data-heal-id="username"
+                        data-heal-id="userName4"
                         placeholder="Enter your username"
                     />
 
@@ -52,7 +52,7 @@ function DynamicLoginForm() {
 
                     <input
                         id={passId}
-                        data-heal-id="password"
+                        data-heal-id="password4"
                         type="password"
                         placeholder="Enter your password"
                     />
@@ -67,7 +67,7 @@ function DynamicLoginForm() {
 
             <button
                 className="login-btn"
-                data-heal-id="loginButton"
+                data-heal-id="loginButton3"
             >
                 Sign In
             </button>
