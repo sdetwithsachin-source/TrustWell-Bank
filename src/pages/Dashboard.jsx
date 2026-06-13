@@ -3,7 +3,7 @@ function Dashboard() {
         <div className="dashboard-container">
             <button
                 id="transferBtn"
-                className="transfer-button"
+                className="send-money-button"
                 data-testid="transfer-btn">
 
                 Transfer Money
