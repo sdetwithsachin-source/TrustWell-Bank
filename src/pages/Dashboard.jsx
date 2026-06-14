@@ -2,7 +2,7 @@ function Dashboard() {
     return (
         <div className="dashboard-container">
             <button
-                id="transferBtnNew5"
+                id="transferBtnNew6"
                 className="payment-button"
                 data-testid="transfer-btn">
 
